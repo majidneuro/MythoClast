@@ -1,0 +1,214 @@
+[
+    {
+      "id": 1,
+      "title": "Dashboard",
+      "url": "/dashboard",
+      "icon": "img/dashboard-icon.svg",
+      "iconHover": "img/dashboard-hover-icon.svg",
+      "dropdownShow" : false,
+      "dropdown": [
+        {"title": "Item 1", "url" : "#"},
+        {"title": "Item 1", "url" : "#"},
+        {"title": "Item 1", "url" : "#"},
+        {"title": "Item 1", "url" : "#"}
+        
+      ],
+      "visited": [
+        {"title": "", "url" : ""}         
+      ]
+    },
+    {
+        "id": 2,
+        "title": "Reports",
+        "url": "/reports",
+        "icon": "img/report-icon.svg",
+        "iconHover": "img/report-hover-icon.svg",
+        "dropdownShow" : false,
+        "dropdown": [
+          {"title": "", "url" : "#"}
+        ],
+        "visited": [
+          {"title": "", "url" : "#"}  
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Investments",
+        "url": "/investments",
+        "icon": "img/invest-icon.svg",
+        "iconHover": "img/invest-hover-icon.svg",
+        "dropdownShow" : false,
+        "dropdown": [
+          {"title": "", "url" : "#"}
+        ],
+        "visited": [
+          {"title": "", "url" : "#"}
+        ]
+      },
+      {
+        "id": 4,
+        "title": "PMI",
+        "url": "/pmi",
+        "icon": "img/pmi-icon.svg",
+        "iconHover": "img/pmi-hover-icon.svg",
+        "dropdownShow" : false,
+        "dropdown": [
+          {"title": "Item 1", "url" : "#"}
+        ],
+        "visited": [
+          {"title": "", "url" : "#"}
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Property",
+        "url": "/property",
+        "icon": "img/property-icon.svg",
+        "iconHover": "img/property-hover-icon.svg",
+        "dropdownShow" : true,
+        "dropdown": [
+          {"title": "List 1", "url" : "#"},
+          {"title": "List 2", "url" : "#"},
+          {"title": "List 3", "url" : "#"},
+          {"title": "List 4", "url" : "#"},
+          {"title": "List 5", "url" : "#"},
+          {"title": "List 6", "url" : "#"}
+        ],
+        "visited": [
+          {"title": "Property Profile", "url" : "#"},
+          {"title": "Rent Roll", "url" : "#"}          
+        ]
+      },
+      {
+        "id": 6,
+        "title": "PMS",
+        "url": "/pms",
+        "icon": "img/pms-icon.svg",
+        "iconHover": "img/pms-hover-icon.svg",
+        "dropdownShow" : true,
+        "dropdown": [
+          {"title": "Property Profile", "url" : "#"},
+          {"title": "Rent Roll", "url" : "#"},
+          {"title": "Tenants", "url" : "#"},
+          {"title": "Floors / Units", "url" : "#"},
+          {"title": "Leases", "url" : "#"},
+          {"title": "Charges", "url" : "#"}
+        ],
+        "visited": [
+          {"title": "Property Profile", "url" : "#"},
+          {"title": "Rent Roll", "url" : "#"}          
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Payments",
+        "url": "/payments",
+        "icon": "img/payment-icon.svg",
+        "iconHover": "img/payment-hover-icon.svg",
+        "dropdownShow" : false,
+        "dropdown": [
+          {"title": "", "url" : "#"}
+        ],
+        "visited": [
+          {"title": "", "url" : "#"}  
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Accounting",
+        "url": "/accounting",
+        "icon": "img/account-icon.svg",
+        "iconHover": "img/account-hover-icon.svg",
+        "dropdownShow" : false,
+        "dropdown": [
+          {"title": "", "url" : "#"}
+        ],
+        "visited": [
+          {"title": "", "url" : "#"}
+        ]
+      },
+      {
+        "id": 9,
+        "title": "OFAC",
+        "url": "/ofac",
+        "icon": "img/ofac-icon.svg",
+        "iconHover": "img/ofac-hover-icon.svg",
+        "dropdownShow" : false,
+        "dropdown": [
+          {"title": "", "url" : "#"}
+        ],
+        "visited": [
+          {"title": "", "url" : "#"}
+        ]
+      },
+      {
+        "id": 10,
+        "title": "Contacts",
+        "url": "/contacts",
+        "icon": "img/contact-icon.svg",
+        "iconHover": "img/contact-hover-icon.svg",
+        "dropdownShow" : false,
+        "dropdown": [
+          {"title": "", "url" : "#"}
+        ],
+        "visited": [
+          {"title": "", "url" : "#"}
+        ]
+      },
+      {
+        "id": 11,
+        "title": "Maintenance",
+        "url": "/maintenance",
+        "icon": "img/maintenance-icon.svg",
+        "iconHover": "img/maintenance-hover-icon.svg",
+        "dropdownShow" : false,
+        "dropdown": [
+          {"title": "", "url" : "#"}
+        ],
+        "visited": [
+          {"title": "", "url" : "#"}
+        ]
+      },
+      {
+        "id": 12,
+        "title": "Data Dictionary",
+        "url": "/data-dictionary",
+        "icon": "img/data-icon.svg",
+        "iconHover": "img/data-hover-icon.svg",
+        "dropdownShow" : false,
+        "dropdown": [
+          {"title": "", "url" : "#"}
+        ],
+        "visited": [
+          {"title": "", "url" : "#"}
+        ]
+      },
+      {
+        "id": 13,
+        "title": "Integration",
+        "url": "/integration",
+        "icon": "img/integration-icon.svg",
+        "iconHover": "img/integration-hover-icon.svg",
+        "dropdownShow" : false,
+        "dropdown": [
+          {"title": "", "url" : "#"}
+        ],
+        "visited": [
+          {"title": "", "url" : "#"}
+        ]
+      },      
+      {
+        "id": 14,
+        "title": "Budgeting",
+        "url": "/budgeting",
+        "icon": "img/budgeting-icon.svg",
+        "iconHover": "img/budgeting-hover-icon.svg",
+        "dropdownShow" : false,
+        "dropdown": [
+          {"title": "", "url" : "#"}
+        ],
+        "visited": [
+          {"title": "", "url" : "#"}
+        ]
+      }      
+  ]

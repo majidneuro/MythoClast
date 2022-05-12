@@ -1,0 +1,17 @@
+// import font
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+// import Fluent UI scss
+@import '../../node_modules/@fluentui/react/dist/sass/Fabric.scss';
+
+// import abstracts
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+// import base
+@import "base/base";
+
+// import components
+@import "components/navbar";
+@import "components/header";
+@import "components/table";

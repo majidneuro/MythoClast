@@ -1,0 +1,67 @@
+.ms-actionbar .ms-CommandBar {
+    padding: 0;
+    margin-bottom: 10px;
+    height: 36px;
+    flex-direction: row-reverse;
+    .ms-CommandBar-primaryCommand {
+      justify-content: flex-end;
+    }  
+    & .ms-Button {
+      color: $primary;
+    }
+  }
+  .ms__table{
+    margin: 0 -15px;
+    overflow: hidden;
+    height: 100%;
+    &-filter{
+     background: $primarylight;   
+     padding: 10px 15px;
+    }
+    &-search {
+      width: 240px;
+      & .ms-TextField-fieldGroup {
+        border:solid 1px #ccc;
+        border-radius: 4px;
+        padding: 0 8px 0 30px;
+        & .ms-TextField-field {
+          font-size: $medium;
+        }    
+        i {
+          right: auto;
+          left: 10px;
+        }
+      }
+    }
+    & .ms-DetailsHeader {
+      padding:0;
+      & .ms-DetailsHeader-cellName {
+        font-size: $medium;
+      }
+    }
+    & .ms-DetailsRow-cell {
+      min-height: 30px;      
+    }
+    &-view {
+      margin-left: auto;
+      & .record-no {
+        color: rgba(42,42,42,0.5);  
+        font-size: $medium;    
+      }
+    }
+    &-grid {
+      overflow: hidden;
+      height: 100%;
+      & .ms-Viewport {
+        height: 100%;
+        overflow: hidden;
+      }
+      & .ms-DetailsList {
+        height: 100%;
+        overflow: auto;
+      }
+      & .ms-DetailsRow-check {
+        opacity: 1;
+      }    
+    }  
+  }

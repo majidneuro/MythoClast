@@ -1,0 +1,120 @@
+.mc__header { 
+    min-height: 70px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;   
+    & .mc__logo {
+        min-width: 265px;
+        line-height: 70px;
+        display: flex;
+        & .btn-hamburger {
+            position: relative;
+            min-width: 50px;
+            height: 70px;
+            padding: 0;
+            background: none;          
+            & span, & span:before, & span:after {
+                min-width: 20px;
+                height: 2px;                
+                background: $primary;
+                position: absolute;
+                top: 35px; 
+                left: 0;
+            }
+            & span {
+                left:15px;
+            }
+            & span:before {
+                content: '';
+                top: -5px;
+            }
+            & span:after {
+                content: '';
+                top: 5px;
+            }
+        }
+
+        & .navbar-brand {
+            padding: 0;
+            margin: 0; 
+            font-size: 20px;          
+            text-decoration: none;
+            color: $default;
+            font-weight: 700;
+        }
+    }    
+}
+.mc__search {
+    min-width: 500px;
+    border:solid 1px #ccc;
+    border-radius: 4px;
+    position: relative;
+    margin-left: 15px;
+    & svg {
+        position: absolute;
+        top: 11px;
+        left: 14px;
+    }
+    & .ms-SearchBox {
+        width: 100%;
+        border:none;
+        border-radius: 4px !important;
+        &:after {
+            border-radius: 4px !important;
+        }
+    }
+    & .ms-Dropdown-container {       
+        width: 100px;        
+        .ms-Dropdown-title {
+            border:none; 
+            background: none;           
+        }
+    }
+}
+.mc-header-right {
+    width: 100%;
+    & .ms-Button {
+        min-width: 50px;
+        text-align: center;
+        min-height: 50px;
+        border-radius: 4px;
+        position: relative;
+        
+        & .ms-Icon {
+            color: $primary;
+            margin: 0 auto;
+            font-size: 20px;
+        }
+        &:hover {
+            background: $primarylight;
+        }
+    }
+    & .btn-notify.is-unread:before{
+        content: '';
+        width: 8px;
+        height: 8px;
+        background: $orange;
+        border-radius: 50%;
+        position: absolute;
+        top: 15px;
+        right: 14px;
+    }
+    & .btn-user {
+        padding : 10px;
+        border-radius: 4px;
+        margin-right: 15px;
+        cursor: pointer;        
+        & .ms-TooltipHost {
+            max-width: 80px;
+            font-weight: 600;
+            font-size: $medium;
+            display: block;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+        &:hover {
+            background: $primarylight;
+        }
+    }
+}
